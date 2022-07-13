@@ -39,6 +39,8 @@ def read_relationship_csv():
         for item in fobj:
             print (item)
 ```
+#Exercise-2
+> *Validate correct people loaded Write a test to validate that you have loaded the expected number of people.*
 
             
             
