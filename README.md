@@ -4,6 +4,20 @@
     <a href="README.pdf"> Go to </a>
 </button>
 
+# importing csv module
+
 ```
 import csv
 ```
+# Display the 1st people csv file 
+
+```
+ def read_people_csv():
+    with open("people(1).csv",'r') as obj:
+        fobj = csv.reader(obj)
+        for item in fobj:
+            print (item)
+```            
+            
+            
+            
