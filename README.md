@@ -123,7 +123,7 @@ def show_total_relations():
 
 
 ## Exercise 4 - Write a method that calculates the size of the extended family
->*Write a method which, when passed the object representing a particular person, returns an int representing the size of their extended family including themselves. Their extended family includes anyone connected to them by a chain of family relationships of any length, so your solution will need to work for arbitrarily deep extended families. It **_should not count their friends_**. Write tests that validate this returns the correct result for the families of:*
+>*Write a method which, when passed the object representing a particular person, returns an int representing the size of their extended family including themselves. Their extended family includes anyone connected to them by a chain of family relationships of any length, so your solution will need to work for arbitrarily deep extended families. It `**_should not count their friends_**.` Write tests that validate this returns the correct result for the families of:*
 >
 >- *Jenny (4 family members)*
 >- *Bob (4 family members)*
