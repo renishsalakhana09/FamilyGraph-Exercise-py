@@ -11,6 +11,23 @@
 >
 >  ![alt text](https://user-images.githubusercontent.com/104903815/178705703-b8842343-cded-4e49-be09-933d13e4e618.png)
 
+##### people.csv 
+
+| Names     | Email         | Id |
+| ------------- |:-------------:| -----:|
+| Bob | bob@bob.com | 31 |
+| Derek | derek@bob.com | 25 |
+| Anna | anna@clothes.com | 25 |
+| Jenny | jenny@toys.com | 52 |
+| Pete | pete@timber.com | 57 |
+| kerry | kerry@oilcompany.org | 29 |
+| joe| joe@construction.net | 28 |
+| Nigel | nigel@marketing.com | 40 |
+| Amber | amber@gmail.com | 12 |
+| Finn | finn@gmail.com | 15 |
+| Alan | alan@lonely.org | 23 |
+| Dave | dave@dentists.com | 49 |
+
 
 ## Exercise-1
 > *:heavy_check_mark:Please implement code and data structures that read the files:*
