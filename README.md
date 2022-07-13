@@ -24,7 +24,22 @@ import csv
 > 
 > *`def read_relationships_csv` for display the relationships csv file:*
 > 
+```python
+ 
+def read_people_csv():
+    with open("people(1).csv",'r') as obj:
+        fobj = csv.reader(obj)
+        for item in fobj:
+            print (item)
+```
 
+```python
+def read_relationship_csv():
+    with open("relationships.csv",'r') as obj:
+        fobj = csv.reader(obj)
+        for item in fobj:
+            print (item)
+```
 
             
             
