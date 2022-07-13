@@ -15,7 +15,7 @@
 
 Create necessary python function
 
-> *importing the `csv` module's *
+> *importing the `csv` module's*
 
 ```python
 import csv
