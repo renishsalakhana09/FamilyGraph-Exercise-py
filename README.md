@@ -7,10 +7,9 @@
 #### :heavy_check_mark:Exercise is completed in `Python` only
 
 #### :heavy_check_mark:All things will run smoothly on py `jupyter notebook` to know more and steps to install jupyter notebook [click Here](https://www.geeksforgeeks.org/how-to-install-jupyter-notebook-in-windows/)
-
 >
->  [](https://user-images.githubusercontent.com/104903815/178705703-b8842343-cded-4e49-be09-933d13e4e618.png =100x100)
-
+> <img scr="https://user-images.githubusercontent.com/104903815/178705703-b8842343-cded-4e49-be09-933d13e4e618." width="100" heigth="100">
+> 
 > `CSV files that are used in this program`
 
 ##### people.csv 
