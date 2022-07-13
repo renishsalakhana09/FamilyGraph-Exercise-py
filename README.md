@@ -11,9 +11,11 @@
 >
 >  ![alt text](https://user-images.githubusercontent.com/104903815/178705703-b8842343-cded-4e49-be09-933d13e4e618.png)
 
+> `CSV files that are used in this program`
+
 ##### people.csv 
 
-| Names     | Email         | Id |
+| Names     | Email         | Id |                  
 | ------------- |:-------------:| -----:|
 | Bob | bob@bob.com | 31 |
 | Derek | derek@bob.com | 25 |
@@ -27,6 +29,31 @@
 | Finn | finn@gmail.com | 15 |
 | Alan | alan@lonely.org | 23 |
 | Dave | dave@dentists.com | 49 |
+
+#### relationships.csv 
+
+
+| Email1    | Relation        | Email2 |                  
+| ------------- |:-------------:| -----:|
+| bob@bob.com | FAMILY | finn@gmail.com |
+| bob@bob.com | FAMILY | amber@gmail.com |
+| bob@bob.com | FAMILY | anna@clothes.com |
+| anna@clothes.com | FAMILY | finn@gmail.com |
+| anna@clothes.com | FAMILY | amber@gmail.com |
+| amber@gmail.com | FAMILY | finn@gmail.com |
+| anna@clothes.com | FRIEND | jenny@toys.com |
+| jenny@toys.com | FAMILY | pete@timber.com |
+| jenny@toys.com | FAMILY | kerry@oilcompany.org |
+| pete@timber.com | FAMILY | kerry@oilcompany.org |
+| dave@dentists.com | FAMILY | pete@timber.com |
+| kerry@oilcompany.org | FRIEND | joe@construction.net |
+| joe@construction.net | FAMILY | nigel@marketing.com |
+| nigel@marketing.com | FRIEND | derek@bob.com |
+|derek@bob.com| FRIEND | bob@bob.com |
+|derek@bob.com| FRIEND | pete@timber.com |
+
+
+
 
 
 ## Exercise-1
