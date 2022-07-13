@@ -121,6 +121,58 @@ def show_total_relations():
 		
 ```
 
+
+## Exercise 4 - Write a method that calculates the size of the extended family
+>*Write a method which, when passed the object representing a particular person, returns an int representing the size of their extended family including themselves. Their extended family includes anyone connected to them by a chain of family relationships of any length, so your solution will need to work for arbitrarily deep extended families. It **_should not count their friends_**. Write tests that validate this returns the correct result for the families of:*
+>
+>- *Jenny (4 family members)*
+>- *Bob (4 family members)*
+
+```python
+def search_family_relations():
+    with open('people(1).csv') as people_file, open('relationships.csv') as relative_file:
+        people = list(csv.reader(people_file,delimiter=','))
+        relationship = list(csv.reader(relative_file,delimiter=','))
+          
+        #making lists 
+        family_relation_list = list()
+        family_members = [];
+	
+        for person in people:
+            for relation in relationship:
+                name = relation[2]
+                name2 = name[0: + name.index('@')]
+                if ((person[1] == relation[0] ) and relation[1] == 'FAMILY'):
+                    
+                    print(person[0].lower() + " & " + str(name2) + " are " + relation[1])
+		    
+        for person in people:
+            for relation in relationship:
+                name = relation[2]
+                name2 = name[0: + name.index('@')]
+                if ( (person[1] == relation[0]) and relation[1] == 'FAMILY' ):
+                    family_relation_list.append(person[0].lower())
+                    
+                    family_relation_list.append(str(name2))
+                
+        print("\n")
+        print("---family_relation_list---")
+        print(family_relation_list)    
+            
+        i=0
+        my_relation_list = {}
+        for i in family_relation_list:
+            if i in my_relation_list:
+                my_relation_list[i]+=1
+            else:
+                my_relation_list[i] = 2
+                
+        total_family_relation = my_relation_list.items()
+        print("\n")
+        print("---Total family relations---")
+        print(total_family_relation)
+```
+
             
             
             
