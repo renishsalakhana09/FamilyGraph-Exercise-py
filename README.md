@@ -12,7 +12,7 @@
 > [![N|Solid](https://user-images.githubusercontent.com/104903815/178705703-b8842343-cded-4e49-be09-933d13e4e618.png)
 
 
-# Exercise-1
+## Exercise-1
 > *:heavy_check_mark:Please implement code and data structures that read the files:*
 > *and use them to build an in-memory data structure that represents the people in the file and their relationships with each other.*
 
@@ -42,7 +42,7 @@ def read_relationship_csv():
         for item in fobj:
             print (item)
 ```
-# Exercise-2
+## Exercise-2
 > *:heavy_check_mark:Validate correct people loaded Write a test to validate that you have loaded the expected number of people.*
 
 ```python
@@ -54,7 +54,7 @@ for person in people:
                 
                     print(person[0].lower() + " & " + str(name2) + " are " + relation[1])
 ```
-# Exercise 3 - Validate correct relationships loaded
+## Exercise 3 - Validate correct relationships loaded
 >*:heavy_check_mark:Write a test to validate that the following people have the correct expected number of connections to other people*
 >
 >- *Bob (4 relationships)*
