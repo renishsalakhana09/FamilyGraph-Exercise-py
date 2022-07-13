@@ -7,6 +7,9 @@
 ### :arrow_forward: You will find all necessary function and code at `FamilyGraph.py` 
 
 #### :heavy_check_mark:Exercise is completed in `Python` only 
+##### All things will run smoothly on py jupyter notebook to know more and steps to install jupyter notebook please go to  <button>
+    <a href="https://www.geeksforgeeks.org/how-to-install-jupyter-notebook-in-windows/"> Go to </a>
+</button>
 > 
 > [![N|Solid](https://user-images.githubusercontent.com/104903815/178705703-b8842343-cded-4e49-be09-933d13e4e618.png)
 
