@@ -4,6 +4,8 @@
     <a href="README.pdf"> Go to </a>
 </button>
 
+> Exercise is completed in `Python` only 
+
 # importing csv module
 
 ```python
