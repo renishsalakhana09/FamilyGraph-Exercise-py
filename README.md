@@ -1,8 +1,6 @@
 # FamilyGraph-Exercise-py
 #### :black_square_button:Building a graph of people, and their relationships with each other  :family:
-#### :black_square_button:For Detail Explanation of Problem please refer pdf attached <button>
-    <a href="README.pdf"> Go to </a>
-</button>
+#### :black_square_button:For Detail Explanation of Problem please refer pdf attached [click Here](README.pdf)
 
 ### :arrow_forward: You will find all necessary function and code at `FamilyGraph.py` 
 
