@@ -20,6 +20,10 @@ Create necessary python function
 ```python
 import csv
 ```
+> *`def read_people_csv` for display the people csv file:*
+> *`def read_relationships_csv` for display the relationships csv file:*
+
+
             
             
             
