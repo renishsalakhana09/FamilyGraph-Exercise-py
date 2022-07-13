@@ -10,12 +10,12 @@
 
 
 # Exercise-1
->*Please implement code and data structures that read the files:*
->*and use them to build an in-memory data structure that represents the people in the file and their relationships with each other.*
+> *Please implement code and data structures that read the files:*
+> *and use them to build an in-memory data structure that represents the people in the file and their relationships with each other.*
 
 Create necessary python function
 
->*importing the csv module's *
+> *importing the `csv` module's *
 
 ```python
 import csv
