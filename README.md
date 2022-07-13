@@ -9,20 +9,17 @@
 > [![N|Solid](https://user-images.githubusercontent.com/104903815/178705703-b8842343-cded-4e49-be09-933d13e4e618.png)
 
 
-# importing csv module
+# Exercise-1
+>*Please implement code and data structures that read the files:*
+>*and use them to build an in-memory data structure that represents the people in the file and their relationships with each other.*
+
+Create necessary python function
+
+>*importing the csv module's *
 
 ```python
 import csv
 ```
-# Display the 1st people csv file 
-
-```python
- def read_people_csv():
-    with open("people(1).csv",'r') as obj:
-        fobj = csv.reader(obj)
-        for item in fobj:
-            print (item)
-```            
             
             
             
