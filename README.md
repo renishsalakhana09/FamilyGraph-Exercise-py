@@ -6,12 +6,12 @@
 
 # importing csv module
 
-```
+```python
 import csv
 ```
 # Display the 1st people csv file 
 
-```
+```python
  def read_people_csv():
     with open("people(1).csv",'r') as obj:
         fobj = csv.reader(obj)
