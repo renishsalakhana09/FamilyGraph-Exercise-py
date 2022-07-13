@@ -39,8 +39,25 @@ def read_relationship_csv():
         for item in fobj:
             print (item)
 ```
-#Exercise-2
+# Exercise-2
 > *Validate correct people loaded Write a test to validate that you have loaded the expected number of people.*
+
+```python
+for person in people:
+            for relation in relationship:
+                if person[1] == relation[0]: 
+                    name = relation[2]
+                    name2 = name[0: + name.index('@')]
+                
+                    print(person[0].lower() + " & " + str(name2) + " are " + relation[1])
+```
+# Exercise 3 - Validate correct relationships loaded
+>*Write a test to validate that the following people have the correct expected number of connections to other people*
+>
+>- *Bob (4 relationships)*
+>- *Jenny (3 relationships)*
+>- *Nigel (2 relationships)*
+>- *Alan (0 relationships)*
 
             
             
