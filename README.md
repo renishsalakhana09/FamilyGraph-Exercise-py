@@ -1,10 +1,10 @@
 # FamilyGraph-Exercise-py
-- Building a graph of people, and their relationships with each other 
-- For Detail Explanation of Problem please refer pdf attached <button>
+- :black_square_button:Building a graph of people, and their relationships with each other 
+- :black_square_button:For Detail Explanation of Problem please refer pdf attached <button>
     <a href="README.pdf"> Go to </a>
 </button>
 
-:arrow_forward: ### You will find all necessary function and code at `FamilyGraph.py` ###
+:arrow_forward: # You will find all necessary function and code at `FamilyGraph.py` 
 
 > Exercise is completed in `Python` only 
 > 
