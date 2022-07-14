@@ -9,6 +9,12 @@
 #### :heavy_check_mark:All things will run smoothly on py`jupyter notebook` to know more and steps to install jupyter notebook [click Here](https://www.geeksforgeeks.org/how-to-install-jupyter-notebook-in-windows/)
 
 
+
+[![contributions welcome]()
+**Please don't hesitate to submit PRs** to improve these notes wherever you feel
+something can be clarified, improved on or have an example added to it.
+
+
 >
 >
 > <img src="https://user-images.githubusercontent.com/104903815/178730491-33003657-6065-449d-a792-e0add2c7470e.png" width="100" height="100">
