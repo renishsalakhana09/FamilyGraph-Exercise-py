@@ -10,7 +10,7 @@
 
 
 
-[![contributions welcome]()
+[![contributions welcome](https://github.com/renishsalakhana09/FamilyGraph-Exercise-py/issues)
 **Please don't hesitate to submit PRs** to improve these notes wherever you feel
 something can be clarified, improved on or have an example added to it.
 
